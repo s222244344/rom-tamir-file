@@ -1,33 +1,36 @@
-# Step by step policy writing guide
+<h1 align="center">Step by step policy writing guide</h1>
 
-
-![HARDHAT-LOGO](images/logo.png)
-
-
-
-![PDE-LOGO](images/pde-logo.png)
-
----
-
-## Contents
-
-- [Prerequisites](prerequisite.md)
-- [Researching and Documentation](researching-and-documentation.md)
-- [Policy Writing](policy-writing.md)
-- [Terraform inputs](terraform-inputs.md)
-- [Vars](#errors-you-may-face)
-- [vars.rego](vars.md)
-- [policy.rego](policy-rego.md)
-- [Testing your policies](testing-your-policy.md)
-- [Documenting your Service](#documenting-your-service)
-- [Raising a Pull Request](raising-pr.md)
-- [General work flow](PDE-workflow.md)
+<p align="center">
+  <img src="images/logo.png" width="380"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/logo1.png" width="420"/>
+</p>
 
 ---
 
+<h2 align="center">Contents</h2>
 
+<div align="center">
 
+<a href="prerequisite.md">Prerequisites</a><br>
+<a href="researching-and-documentation.md">Researching and Documentation</a><br>
+<a href="policy-writing.md">Policy Writing</a><br>
+<a href="c-tf-and-nc-tf.md">c.tf and nc.tf</a><br>
+<a href="terraform-inputs.md">Terraform inputs</a><br>
+<a href="common-errors.md">Common Errors</a><br>
+<a href="vars-rego.md">vars.rego</a><br>
+<a href="policy-rego.md">policy.rego</a><br>
+<a href="testing-policies.md">Testing your policies</a><br>
+<a href="raising-pull-request.md">Raising a Pull Request</a><br>
+<a href="general-workflow.md">General work flow</a>
 
+</div>
 
+<div align="center">
 
-  
+[⬅️ Previous](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next ➡️](prerequisite.md)
+
+</div>
+---

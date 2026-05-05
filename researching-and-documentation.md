@@ -1,4 +1,7 @@
-## Researching your Service
+# Researching and Documenting your Service
+
+
+## Researching
 
 You have completed the contributors quiz and have received an email that looks like this:
 
@@ -9,25 +12,29 @@ You have completed the contributors quiz and have received an email that looks l
 
 https://registry.terraform.io/providers/hashicorp/google/7.11.0/docs
 
-### 2. Go to the argument reference of your service’s resource
+
+
+### 2. Go to the argument reference of your service’s resource type
 
 ![Argument Reference](images/argument-reference.png)
 
 Policies are written based on the **arguments (3)** which are supported by your **service (1)** and **resource type (2)**.
 
-## 3. Research your service
 
-Research your service to determine whether its arguments are “security” related, meaning they have an impact on the security of the resource, or the data contained. 
+### 3. Evaluate what arguments have a security impact
+
+Research your service to determine whether its arguments are “security” related, meaning they have an impact on the security of the resource type, or the data contained.
 
 For example:
 
 ![Researching your service example](images/researching-service-example.png)
 
-Take this screenshot of the first two arguments which are supported for the **service – Cloud Functions**, and its first **resource – google_cloudfunctions_function**.
+Take this screenshot of the first two arguments which are supported for the **service – Cloud Functions**, and its first **resource type – google_cloudfunctions_function**.
+
 
 ### Argument 1
 
-**Argument Name:** `name`  <!-- paste "Name" photo instead -->
+**Argument Name:** `name`
 
 **Description:**  
 “A user-defined name of the function. Function names must be unique globally.”
@@ -35,13 +42,13 @@ Take this screenshot of the first two arguments which are supported for the **se
 **Security impact:** ❌ No  
 
 **Reasoning:**  
-This argument only affects the identifier of the function and does not impact data, access, or the security of the resource.
+This argument only affects the identifier of the function and does not impact data, access, or the security of the resource type.
 
----
+
 
 ### Argument 2
 
-**Argument Name:** `runtime`  <!-- paste "Runtime" photo instead -->
+**Argument Name:** `runtime`
 
 **Description:**  
 “The runtime in which the function is going to run”
@@ -51,16 +58,12 @@ This argument only affects the identifier of the function and does not impact da
 **Reasoning:**  
 Different runtimes have varying vulnerability exposure and patch histories, and older runtimes may be deprecated or no longer receive security updates, as shown in the [official documentation](https://docs.cloud.google.com/functions/docs/runtime-support#runtimes).
 
----
-
-### 4. Next Steps
-
 ## Documenting your Service
 
-To document your service, navigate to the `docs/gcp/<service>` directory. Each resource will have its own `.json` file.
+To document your service, navigate to the `docs/gcp/<service>` directory. Each resource type will have its own `.json` file.
 
 ![docs-service-resources](images/artifact_registry.PNG)
----
+
 
 ### Key Components to Complete
 
@@ -70,20 +73,20 @@ Each argument in the JSON file contains the following fields:
 - Pulled from the Terraform Registry by default  
 - Update if needed to improve clarity or accuracy  
 
----
+
 
 #### Required
 - Indicates whether the argument is required (`true` or `false`)  
 - Based on Terraform documentation  
 - Ensure this matches the registry  
 
----
+
 
 #### Security Impact
 - Set to `true` if the argument affects security  
 - Set to `false` if it has no security relevance  
 
----
+
 
 #### Rational
 - Explain **why** the argument does or does not have a security impact  
@@ -91,18 +94,18 @@ Each argument in the JSON file contains the following fields:
 
 Example:
 
-    "Display name has no impact on the security of the resource or data."
+    "Display name has no impact on the security of the resource type or data."
 
----
+
 #### Compliant
 - Provide a compliant example
 
----
+
 
 #### Non-compliant
 - Provide a non-compliant example
 
----
+
 
 #### Parent
 - Leave untouched
@@ -114,7 +117,7 @@ Example:
 - Use the Terraform Registry as your primary reference  
 - Nested blocks will appear as arguments with child arguments  
 
----
+
 
 ### Key Idea
 
@@ -167,10 +170,9 @@ python3 scripts/docgen/create_markdown.py alloydb
 
 ---
 
-### 5. Writing the Policy
+[⬅️ Previous](prerequisite.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next ➡️](policy-writing.md)
 
-Apply your research into policy logic by defining situations and conditions. Move onto [Policy Writing](policy-writing.md)
-
-[contents](policy-writing-totourial.md)
 
 

@@ -1,4 +1,4 @@
-## prerequisites
+# Prerequisites
 
 ### 1. Upskilling guide
 
@@ -8,9 +8,15 @@
 4. [Policy Deployment Engine (PDE) Guides](https://deakin365.sharepoint.com/:w:/r/sites/HardhatEnterprises2/_layouts/15/Doc.aspx?sourcedoc=%7B45C273BF-6345-4A79-87D8-58FC45C6ACD0%7D&file=Upskilling%20Guide.docx&action=default&mobileredirect=true&wdLOR=c419E4129-B4A1-4C66-B30F-C569C32426DC)
 5. [Git](https://deakin365.sharepoint.com/:w:/r/sites/HardhatEnterprises2/_layouts/15/Doc.aspx?sourcedoc=%7B45C273BF-6345-4A79-87D8-58FC45C6ACD0%7D&file=Upskilling%20Guide.docx&action=default&mobileredirect=true&wdLOR=c878001D8-0AFB-4779-8381-2B0C77998413)
 
----
 
-### 2. Joined the HardHat-Enterpises GitHub Repository
+
+### 2. Passed the contributors Quiz
+
+To be able to contribute to Policy Development Engine and begin writing policies, a score of **90%** is required on the contributor’s quiz.
+
+The quiz can be accessed here:  
+[Contributor's Quiz – Policy Deployment Engine](https://forms.office.com/pages/responsepage.aspx?id=7Hgj0IgW1UaFQBwotfRw9qiIG310OQ9Juta4hpy5t41UMThPREw2UVdUU0Y3NkYxMVIzRUIxMU5LVC4u&route=shorturl)
+
 
 ### 3. Installed all necessary requirements
 
@@ -18,19 +24,42 @@
 2. [OPA Install Guide – Windows](https://deakin365.sharepoint.com/sites/HardhatEnterprises2/_layouts/15/stream.aspx?id=%2Fsites%2FHardhatEnterprises2%2FShared%20Documents%2F%F0%9F%95%B9%20Policy%20Deployment%20Engine%2FT3%202025%2FInstructional%20Demos%2FRequirement%20Installations%2FOPA%20Install%20Guide%20%2D%20Windows%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaeb918e3%2Dbda4%2D4cf4%2Da780%2Dc42a3d164662)
 3. [Terraform Install – Windows](https://deakin365.sharepoint.com/sites/HardhatEnterprises2/_layouts/15/stream.aspx?id=%2Fsites%2FHardhatEnterprises2%2FShared%20Documents%2F%F0%9F%95%B9%20Policy%20Deployment%20Engine%2FT3%202025%2FInstructional%20Demos%2FRequirement%20Installations%2FTerraform%20Install%20Windows%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efeacb275%2D9cb3%2D429e%2D9fb8%2D92b38bb0b0a0)
 
+
+### 4. Joined the HardHat-Enterprises GitHub Repository
+
+Ensure you have access to the repository and can create and push branches.
+
+
+#### Create your working branch
+
+Create a branch for your assigned service:
+
+```
+git checkout -b gcp/service/<service-name>
+```
+
+#### Push your branch
+
+```
+git push origin gcp/service/<service-name>
+```
+
+If the push is successful, you have the correct permissions and can continue your work on this branch.
+
+#### If the push fails
+
+- You may not have write access to the repository  
+- Ensure you have accepted the repository invitation  
+- Contact a team lead or repository administrator  
+
+
 ---
 
-### 4. Passed the contributors Quiz
+<div align="center">
 
-To be able to contribute to Policy Development Engine and begin writing policies, a score of **90%** is required on the contributor’s quiz.
+[⬅️ Previous](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next ➡️](researching-and-documentation.md)
 
-The quiz can be accessed here:  
-[Contributor's Quiz – Policy Deployment Engine](https://forms.office.com/pages/responsepage.aspx?id=7Hgj0IgW1UaFQBwotfRw9qiIG310OQ9Juta4hpy5t41UMThPREw2UVdUU0Y3NkYxMVIzRUIxMU5LVC4u&route=shorturl)
-
----
-
-Once all of these have been completed, you are ready to begin [Researching and Documentation](researching-and-documentation.md)
-
-[contents](policy-writing-totourial.md)
-
+</div>
 

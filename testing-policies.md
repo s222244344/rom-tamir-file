@@ -34,6 +34,7 @@ Displays detailed information about the policy evaluation.
 
 ![opa-eval-details-output](images/opa-eval-details-output.PNG)
 
+if all your policies have passed their checks continue to [Raising a Pull Request](raising-pull-request.md) or return to [Common Errors](common-errors.md) if tou are experiencing issues
 
 [contents](policy-writing-totourial.md)
 

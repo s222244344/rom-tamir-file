@@ -233,6 +233,7 @@ Blocks values that match a defined pattern.
       }
     ]
 ```
+One your policies are written, its time to test them, proceed to [Testing your policies](testing-policies.md) 
 
 [contents](policy-writing-totourial.md)
 

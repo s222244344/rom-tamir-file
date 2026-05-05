@@ -29,6 +29,11 @@ Make sure you are in the inputs directory of the attribute you are writing your 
 ![turn-plan-into-.json](images/plan-json.PNG)
 
 
+
+
+if you are having troulbe with this section visit [Common Errors](common-errors.md)
+
+
+if you have not faced any errors during this process, move onto [vars.rego](vars-rego.md)
+
 [contents](policy-writing-totourial.md)
-
-

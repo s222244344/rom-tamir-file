@@ -73,6 +73,8 @@ package terraform.gcp.security.cloud_functions.google_cloudfunctions_function.va
     }
 ```
 
+If you have completed this move onto [policy.rego](policy-rego.md) or go back to [Terraform inputs](terraform-inputs.md) or [Common Errors](common-errors.md) 
+
 [contents](policy-writing-totourial.md)
 
 
