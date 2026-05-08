@@ -1,6 +1,6 @@
-## policy.rego
+<h1 align="center">policy.rego</h1>
 
-### 1. Rego package naming convention from directory structure
+### Rego package naming convention from directory structure
 
 The package name in your `policy.rego` file must follow the directory structure of your policy.
 
@@ -19,7 +19,7 @@ package terraform.gcp.security.cloud_functions.google_cloudfunctions_function.av
 import data.terraform.helpers
 import data.terraform.gcp.security.cloud_functions.google_cloudfunctions_function.vars
 ```
-## 2. Attribute Paths
+## Attribute Paths
 Attribute paths are used to locate specific values inside the Terraform `plan.json` file.
 They map directly to the structure of the JSON and are used to extract values from a resource.
 
@@ -38,7 +38,6 @@ Transforms it into this
 
 ![formatted-json-document](images/json-formatted.PNG)
 
----
 
 ### How to determine your attribute path
 
@@ -56,8 +55,6 @@ Transforms it into this
 
 - If the value is **nested inside objects or arrays**, include each level.
 
----
-
 ### Example (Simple Attribute)
 
 From the JSON:
@@ -70,7 +67,6 @@ The attribute path is:
 
     ["available_memory_mb"]
 
----
 
 ### Example (Nested Attribute)
 
@@ -88,9 +84,8 @@ The attribute path would be:
 
     ["rsa", 0, "key"]
 
----
 
-### 3. Different ways to write your policy
+### Different ways to write your policy
 
 ---
 
@@ -113,7 +108,7 @@ Whitelist allows only specific values and blocks everything else.
       }
     ]
 ```
----
+
 
 ### Blacklist
 
@@ -138,7 +133,7 @@ Blacklist disallows specific values.
 
 Range is used with numeric values to enforce minimum, maximum, or bounded ranges.
 
----
+
 
 ### Minimum
 
@@ -157,7 +152,7 @@ Ensures a value is above a minimum threshold.
       }
     ]
 ```
----
+
 
 ### Maximum
 
@@ -176,7 +171,7 @@ Ensures a value is below a maximum threshold.
       }
     ]
 ```
----
+
 
 ### Range (Bounded)
 
@@ -195,7 +190,7 @@ Ensures a value falls within a specific range.
       }
     ]
 ```
----
+
 
 ### Pattern Whitelist
 
@@ -214,7 +209,7 @@ Allows only values that match a defined pattern.
       }
     ]
 ```
----
+
 
 ### Pattern Blacklist
 
@@ -233,7 +228,12 @@ Blocks values that match a defined pattern.
       }
     ]
 ```
-One your policies are written, its time to test them, proceed to [Testing your policies](testing-policies.md) 
 
-[contents](policy-writing-totourial.md)
+<div align="center">
 
+[⬅️ Previous: vars.rego](vars.rego.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Testing your policies ➡️](testing-policies.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Testing your policies Beta ➡️](testing-policies-beta.md) 
+
+</div>

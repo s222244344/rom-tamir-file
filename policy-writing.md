@@ -52,19 +52,16 @@ Into:
 
 `inputs/gcp/service name/resource type/argument reference(policy)`
 
----
 
 **one** `vars.rego` into:
   
   `policies/gcp/service name/resource type`
 
----
 
 and a  `policy.rego` into:
 
   `policies/gcp/service name/resource type/argument reference(policy)`
 
----
 
 ### For example
 
@@ -79,9 +76,9 @@ and a  `policy.rego` into:
 
 <div align="center">
 
-[⬅️ Previous](researching-and-documentation.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[⬅️ Previous: Researching and Documentation](vars-rego.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next ➡️](c-tf-and-nc-tf.md)
+[Next: c.tf & nc.tf ➡️](c-tf-and-nc-tf.md)
 
 </div>
 

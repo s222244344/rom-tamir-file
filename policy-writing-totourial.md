@@ -1,9 +1,9 @@
 <h1 align="center">Step by step policy writing guide</h1>
 
 <p align="center">
-  <img src="images/logo.png" width="380"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/logo1.png" width="420"/>
+<img src="images/logo.png" height="420"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/logo1.png" height="420"/>
 </p>
 
 <h1 align="center">Contents</h1>
@@ -28,6 +28,6 @@
 
 [⬅️ Previous](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next ➡️](prerequisite.md)
+[Next: Prerequisites ➡️](prerequisite.md)
 
 </div>

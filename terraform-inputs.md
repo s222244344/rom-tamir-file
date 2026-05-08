@@ -1,17 +1,17 @@
 <h1 align="center">Terraform inputs</h1>
 
+
+### 1. terraform init
+
 Make sure you are in the inputs directory of the attribute you are writing your policy on:
 
 `inputs/gcp/service_name/resource/argument reference(policy)`
 
 
-### 1. terraform init
-
     terraform init
 
 ![Terraform-init](images/terraform-init.png)
 
----
 
 ### 2. get binary plan
 
@@ -19,7 +19,6 @@ Make sure you are in the inputs directory of the attribute you are writing your 
 
 ![get-binary-plan](images/terraform-plan--out.PNG)
 
----
 
 ### 3. turn plan into .json file
 
@@ -31,13 +30,13 @@ Make sure you are in the inputs directory of the attribute you are writing your 
 
 <div align="center">
 
-if you are having troulbe with this section please visit [Common Errors](common-errors.md)
+if you are having trouble with this section please visit [Common Errors](common-errors.md)
 
 </div>
 
 <div align="center">
 
-[⬅️ Previous](c-tf-and-nc-tf.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[⬅️ Previous: c.tf and nc.tf](c-tf-and-nc-tf.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[vars.rego ➡️](vars-rego.md) 
+[Next: vars.rego ➡️](vars-rego.md) 
 </div>

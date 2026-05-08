@@ -1,40 +1,39 @@
-## Errors you may face
+<h1 align="center">Common Errors</h1>
 
-If you haven’t included all the required attributes when writing your policies, Terraform will fail when trying to execute your plan. You may receive an error like this:
+## Missing required Terraform attributes
 
 ![Failed-terraform-plan](images/failed-terraform-plan.PNG)
 
----
+The error indicates that required Terraform arguments such as `project` or `region` are missing from the `c.tf` or `nc.tf` files.
 
-The output explains that the required field `project` is not set in the `c.tf` and `nc.tf` files.
+### Fix
 
-It may also indicate that other required fields, such as `region`, are missing.
-
----
-
-### How to fix
-
-Ensure that all required attributes are included in both your `c.tf` and `nc.tf` files. For example:
+Include all required attributes for the resource.
 
 ```rego
 resource "google_cloudfunctions_function" "c" {
   name                = "c"
-  runtime             = "node.js20"
+  runtime             = "nodejs20"
   region              = "google_cloudfunctions_function.function.region"
   project             = "google_cloudfunctions_function.function.project"
   available_memory_mb = 128
 }
 ```
-and 
+---
 
-```rego
-resource "google_cloudfunctions_function" "nc" {
-  name                = "nc"
-  runtime             = "node.js10"
-  region              = "google_cloudfunctions_function.function.region"
-  project             = "google_cloudfunctions_function.function.project"
-  available_memory_mb = 4444
-}
-```
+### 403 Error
+<img src="images/403-error.PNG" height="420"/>
 
-[contents](policy-writing-totourial.md)
+Your GitHub account does not have write access to the repository.
+
+### Fix
+
+Request repository access from a maintainer or supervisor and ensure your GitHub account has been added to the Policy Deployment Engine repository.
+
+
+
+<div align="center">
+
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;
+
+</div>

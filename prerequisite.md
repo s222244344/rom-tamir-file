@@ -30,11 +30,22 @@ The quiz can be accessed here:
 
 Ensure you have access to the repository and can create and push branches.
 
+#### Install Pre-commit 
 
+```
+pip install pre-commit
+```
+#### Pull and merge the latest 'dev' branch into your branch
+```
+git fetch origin dev
+git merge origin/dev
+```
+#### From the root of the repo, run: Shell
+
+```
+pre-commit install
+```
 #### Create your working branch
-
-Create a branch for your assigned service:
-
 ```
 git checkout -b gcp/service/<service-name>
 ```
@@ -58,9 +69,9 @@ If the push is successful, you have the correct permissions and can continue you
 
 <div align="center">
 
-[⬅️ Previous](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[⬅️ Previous:](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next ➡️](researching-and-documentation.md)
+[Next: Researching and Documentation ➡️](researching-and-documentation.md)
 
 </div>
 

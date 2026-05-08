@@ -4,11 +4,6 @@
 
 ## Researching
 
-You have completed the contributors quiz and have received an email that looks like this:
-
-![Assigned service Email](images/email.png)
-
-
 ### 1. Access the Terraform Registry
 
 https://registry.terraform.io/providers/hashicorp/google/7.11.0/docs
@@ -173,9 +168,9 @@ python3 scripts/docgen/create_markdown.py alloydb
 
 <div align="center">
 
-[⬅️ Previous](prerequisite.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[⬅️ Previous: Prerequisites](prerequisite.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next ➡️](policy-writing.md)
+[Next: Policy Writing ➡️](policy-writing.md)
 
 </div>
 

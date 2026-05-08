@@ -74,8 +74,8 @@ resource "google_cloudfunctions_function" "nc" {
 
 <div align="center">
 
-[⬅️ Previous](policy-writing.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[⬅️ Previous: Policy writing](policy-writing.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next ➡️](terraform-inputs.md) 
+[Next: Terraform inputs ➡️](terraform-inputs.md) 
 
 </div>

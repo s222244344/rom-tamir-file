@@ -66,5 +66,10 @@
 - Always test before pushing  
 - Documentation must be completed before raising a PR  
 
-[contents](policy-writing-totourial.md)
+
+<div align="center">
+
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;
+
+</div>
 
