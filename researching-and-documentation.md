@@ -1,4 +1,5 @@
-# Researching and Documenting your Service
+
+<h1 align="center">Researching and Documenting your Service</h1>
 
 
 ## Researching
@@ -170,9 +171,11 @@ python3 scripts/docgen/create_markdown.py alloydb
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](prerequisite.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 [Next ➡️](policy-writing.md)
 
-
+</div>
 

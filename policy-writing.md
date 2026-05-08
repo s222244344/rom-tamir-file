@@ -1,4 +1,4 @@
-# Policy Writing
+<h1 align="center">Policy Writing</h1>
 
 ## Folder Structure
 
@@ -43,14 +43,14 @@ Service, policy, and resource types must be **lowercase** and use underscores (`
 
 ### 1. Copy required files
 
-Copy the following files from the templates folder:
+Copy the following files from `templates/gcp`
 - `c.tf`
 - `nc.tf`
 - `config.tf`
 
 Into:
 
-`inputs/gcp/service name/ type/argument reference(policy)`
+`inputs/gcp/service name/resource type/argument reference(policy)`
 
 ---
 
@@ -62,7 +62,7 @@ Into:
 
 and a  `policy.rego` into:
 
-  `policies/gcp/service name/resourc type/argument reference(policy)`
+  `policies/gcp/service name/resource type/argument reference(policy)`
 
 ---
 

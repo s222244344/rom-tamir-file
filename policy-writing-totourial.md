@@ -6,9 +6,7 @@
   <img src="images/logo1.png" width="420"/>
 </p>
 
----
-
-<h2 align="center">Contents</h2>
+<h1 align="center">Contents</h1>
 
 <div align="center">
 
@@ -33,4 +31,3 @@
 [Next ➡️](prerequisite.md)
 
 </div>
----

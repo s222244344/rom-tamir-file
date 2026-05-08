@@ -1,10 +1,9 @@
-## Terraform inputs
+<h1 align="center">Terraform inputs</h1>
 
 Make sure you are in the inputs directory of the attribute you are writing your policy on:
 
 `inputs/gcp/service_name/resource/argument reference(policy)`
 
----
 
 ### 1. terraform init
 
@@ -30,10 +29,15 @@ Make sure you are in the inputs directory of the attribute you are writing your 
 
 
 
+<div align="center">
 
-if you are having troulbe with this section visit [Common Errors](common-errors.md)
+if you are having troulbe with this section please visit [Common Errors](common-errors.md)
 
+</div>
 
-if you have not faced any errors during this process, move onto [vars.rego](vars-rego.md)
+<div align="center">
 
-[contents](policy-writing-totourial.md)
+[⬅️ Previous](c-tf-and-nc-tf.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[vars.rego ➡️](vars-rego.md) 
+</div>

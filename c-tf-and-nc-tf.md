@@ -1,30 +1,9 @@
-## What goes into your `c.tf` and `nc.tf`
+<h1 align="center">What goes into your c.tf and nc.tf</h1>
 
-### c.tf
+# c.tf File
 
 Your `c.tf` (compliant.tf) contains the **remedies** in your policy that make it compliant/passable.  
 It must include all the required arguments and define the policy using compliant examples.
-
----
-
-### Example
-
-Service: `cloud_functions`  
-Resource type: `google_cloudfunctions_function`
----
-
-### Example c.tf
-
-```rego                                                                     
-resource "google_cloudfunctions_function" "c" {
-  name              = "example-function"
-  runtime           = "nodejs20"
-  available_memory_mb = 256
-  region            = "us-central1"
-  project           = "your-project-id"
-}
-```
-## Writing the c.tf File
 
 ### 1. Replace `"RESOURCE TYPE"` with your resource from Terraform
 
@@ -40,7 +19,7 @@ Use the Terraform documentation to identify all **required arguments** and provi
 
 ![required-arguments](images/required-arguments.PNG)
 
-Example:
+### For example:
 
 ```rego
 resource "google_cloudfunctions_function" "c" {
@@ -55,68 +34,48 @@ resource "google_cloudfunctions_function" "c" {
 
 From your research on your service’s arguments, you should know what to input so the policy is compliant.
 
-### Example: `available_memory_mb`
+### Example: `https_trigger_security_level`
 
 
 ![optional-arguments](images/optional-argument.PNG)
 
 ```rego
 resource "google_cloudfunctions_function" "c" {
-  name                = "c"
-  runtime             = "nodejs20"
-  region              = "google_cloudfunctions_function.function.region"
-  project             = "google_cloudfunctions_function.function.project"
-  available_memory_mb = 256
-}
-```
-
-### nc.tf
-
-Your `nc.tf` (not compliant.tf) contains the remedies in your policy that are **not** compliant/passable. It must include all the required arguments and the policy you are writing with non-compliant examples.
-
-### 1. Replace `"RESOURCE TYPE"` with your resource from Terraform
-
-```rego
-resource "RESOURCE_TYPE" "nc" {
+  name                         = "c"
+  runtime                      = "nodejs20"
+  region                       = "google_cloudfunctions_function.function.region"
+  project                      = "google_cloudfunctions_function.function.project"
+  https_trigger_security_level = "SECURE_ALWAYS"
 
 }
 ```
-### 2. Input non compliant values for the required arguments
 
-Use the Terraform documentation to identify all **required arguments** and provide invalid (non-compliant) values.
+# nc.tf
 
-![required-arguments](images/required-arguments.PNG)
+Your `nc.tf` (not compliant.tf) contains the remedies in your policy that are **not** compliant/passable. It must include all the required arguments and the policy you are writing with non-compliant examples. Like `c.tf`, it must include all required Terraform arguments, but the values related to the policy should violate the compliance rule.
 
-Example:
+### For Example
+
+Service: `cloud_functions`  
+Resource type: `google_cloudfunctions_function`
 
 ```rego
 resource "google_cloudfunctions_function" "nc" {
-  name                = "nc"
-  runtime             = "nodejs.10"
-  region              = "google_cloudfunctions_function.function.region"
-  project             = "google_cloudfunctions_function.function.project"
+  name                         = "nc"
+  runtime                      = "nodejs20"
+  region                       = "google_cloudfunctions_function.function.region"
+  project                      = "google_cloudfunctions_function.function.project"
+  https_trigger_security_level = "SECURE_OPTIONAL"
+
 }
 ```
 
-### 3. Input non compliant values for the argument you are writing your policy on
 
-From your research on your service’s arguments, you should know what to input so the policy is not compliant.
 
-### Example: `available_memory_mb`
+<div align="center">
 
-![optional-arguments](images/optional-argument.PNG)
+[⬅️ Previous](policy-writing.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next ➡️](terraform-inputs.md) 
 
-```rego
-resource "google_cloudfunctions_function" "nc" {
-  name                = "nc"
-  runtime             = "node.js10"
-  region              = "google_cloudfunctions_function.function.region"
-  project             = "google_cloudfunctions_function.function.project"
-  available_memory_mb = 4444
-}
-```
-
-When completed move onto to  [Terraform inputs](terraform-inputs.md) 
-or back to [Policy Writing](policy-writing.md) 
-
-[contents](policy-writing-totourial.md)
+</div>
