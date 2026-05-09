@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">policy.rego</h1>
 
 ### Rego package naming convention from directory structure
@@ -231,9 +232,9 @@ Blocks values that match a defined pattern.
 
 <div align="center">
 
-[⬅️ Previous: vars.rego](vars.rego.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Testing your policies ➡️](testing-policies.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Testing your policies Beta ➡️](testing-policies-beta.md) 
+[⬅️ Previous: vars.rego](vars.rego.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Testing your policies ➡️](testing-policies.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Testing your policies Beta ➡️](testing-policies-beta.md#top) 
 
 </div>

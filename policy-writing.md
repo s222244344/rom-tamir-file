@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">Policy Writing</h1>
 
 ## Folder Structure
@@ -67,18 +68,19 @@ and a  `policy.rego` into:
 
 <p align="center">
   <img src="images/c.tf-nc.tf-file-structure.png" width="45%" style="margin-right: 40px;" />
-  <img src="images/policy-vars-file-structure.PNG" width="45%" />
+  <img src="images/policy-vars-file-structure.PNG" width="51%" />
 </p>
 
-<p align="center"><em>Inputs Structure (left) and Policies Structure (right)</em></p>
+<p align="center"><em>Inputs Structure (left) and Policies Structure (right)</em></p> 
+
 
 
 
 <div align="center">
 
-[⬅️ Previous: Researching and Documentation](vars-rego.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: c.tf & nc.tf ➡️](c-tf-and-nc-tf.md)
+[⬅️ Previous: Researching and Documentation](researching-and-documentation.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: c.tf & nc.tf ➡️](c-tf-and-nc-tf.md#top)
 
 </div>
 

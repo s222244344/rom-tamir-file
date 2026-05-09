@@ -1,4 +1,4 @@
-
+<a id="top"></a>
 <h1 align="center">Raising a Pull Request</h1>
 
 ### 1. Push your changes
@@ -64,7 +64,7 @@ Example:
 
 <div align="center">
 
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;
 
 </div>
 

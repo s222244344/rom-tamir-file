@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">vars.rego</h1>
 
 Ensure your `vars.rego` file is located in:
@@ -44,9 +45,9 @@ package terraform.gcp.security.cloud_functions.google_cloudfunctions_function.va
 
 <div align="center">
 
-[⬅️ Previous: Terraform inputes](terraform-inputs.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: policy.rego ➡️](policy-rego.md) 
+[⬅️ Previous: Terraform inputes](terraform-inputs.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: policy.rego ➡️](policy-rego.md#top) 
 </div>
 
 

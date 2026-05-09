@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">Testing your policies</h1>
 
 ### 1. Run the `linter` script
@@ -39,9 +40,9 @@ if you are having trouble with this section please return to [Common Errors](com
 
 <div align="center">
 
-[⬅️ Previous: policy.rego](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Raising a pull request ➡️](raising-pull-request.md) 
+[⬅️ Previous: policy.rego](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Raising a pull request ➡️](raising-pull-request.md#top) 
 
 </div>
 

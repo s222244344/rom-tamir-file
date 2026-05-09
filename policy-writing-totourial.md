@@ -26,8 +26,8 @@
 
 <div align="center">
 
-[⬅️ Previous](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Prerequisites ➡️](prerequisite.md)
+[⬅️ Previous](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Prerequisites ➡️](prerequisite.md#top)
 
 </div>

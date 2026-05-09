@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">Testing your policies</h1>
 
 ### 1. Run the `linter` script
@@ -17,9 +18,9 @@ python .\scripts\local_policy_scan.py gcp/<SERVICE>/<RESOURCE TYPE> --resource <
 
 <div align="center">
 
-[⬅️ Previous: policy.rego](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Raising a pull request ➡️](testing-policies.md) 
+[⬅️ Previous: policy.rego](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Raising a pull request ➡️](testing-policies.md#top) 
 
 </div>
 

@@ -1,4 +1,4 @@
-
+<a id="top"></a>
 <h1 align="center">Researching and Documenting your Service</h1>
 
 
@@ -23,7 +23,7 @@ Research your service to determine whether its arguments are “security” rela
 
 For example:
 
-![Researching your service example](images/researching-service-example.png)
+![Researching your service example](images/researching-service-example.png) 
 
 Take this screenshot of the first two arguments which are supported for the **service – Cloud Functions**, and its first **resource type – google_cloudfunctions_function**.
 
@@ -168,9 +168,9 @@ python3 scripts/docgen/create_markdown.py alloydb
 
 <div align="center">
 
-[⬅️ Previous: Prerequisites](prerequisite.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Policy Writing ➡️](policy-writing.md)
+[⬅️ Previous: Prerequisites](./prerequisite.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: Policy Writing ➡️](policy-writing.md#top)
 
 </div>
 

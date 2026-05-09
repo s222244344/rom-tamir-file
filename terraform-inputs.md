@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">Terraform inputs</h1>
 
 
@@ -36,7 +37,7 @@ if you are having trouble with this section please visit [Common Errors](common-
 
 <div align="center">
 
-[⬅️ Previous: c.tf and nc.tf](c-tf-and-nc-tf.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: vars.rego ➡️](vars-rego.md) 
+[⬅️ Previous: c.tf and nc.tf](c-tf-and-nc-tf.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+[Next: vars.rego ➡️](vars-rego.md#top) 
 </div>

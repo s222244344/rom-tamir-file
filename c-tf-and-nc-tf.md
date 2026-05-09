@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">What goes into your c.tf and nc.tf</h1>
 
 # c.tf File
@@ -72,10 +73,12 @@ resource "google_cloudfunctions_function" "nc" {
 
 
 
-<div align="center">
 
-[⬅️ Previous: Policy writing](policy-writing.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[📘 Back to Contents](policy-writing-totourial.md) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-[Next: Terraform inputs ➡️](terraform-inputs.md) 
+<div align="center"> 
+
+[⬅️ Previous: Policy writing](policy-writing.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+[📘 Back to Contents](policy-writing-totourial.md#top) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+[Next: Terraform inputs ➡️](terraform-inputs.md#top) 
 
 </div>
+
