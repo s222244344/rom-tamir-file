@@ -19,21 +19,21 @@ Navigate to the GitHub repository.
 
 Click **"New pull request"**:
 
-![new-pull-request](images/New-pull-request.PNG)
+![new-pull-request](images/CreatePullRequestNew.PNG)
 
 
 ### 3. Select your branch
 
 Find and select your pushed branch:
 
-![finding-pushed-branch](images/finding-pushed-branch.PNG)
+![finding-pushed-branch](images/SelectyourbranchNew.PNG)
 
 
 ### 4. Create the pull request
 
 Click **"Create pull request"**:
 
-![create-pull-request](images/create-pull-request.PNG)
+![create-pull-request](images/pullrequestNew.PNG)
 
 
 
@@ -41,7 +41,7 @@ Click **"Create pull request"**:
 
 Add a clear title and description, then create the pull request:
 
-![title-comment](images/title-comment.PNG)
+![title-comment](images/AddDetailsNew.PNG)
 
 
 ### 6. Wait for checks and feedback
